@@ -28,3 +28,11 @@
 //	}
 //}
 
+#include "Diary.h"
+
+int main()
+{
+	Diary Artem;
+	Artem.AddEvent(Date(2008, 6, 26), "My bithday");
+	Artem.ShowList();
+}
